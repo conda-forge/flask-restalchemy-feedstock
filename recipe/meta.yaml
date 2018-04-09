@@ -12,7 +12,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 0
+  number: 1
   skip: True  # [py<35]
   script: python -m pip install --no-deps --ignore-installed .
 
@@ -43,5 +43,5 @@ about:
 extra:
   recipe-maintainers:
     - igortg
-    - loliveira
+    - lvoliveira
     - edetec
