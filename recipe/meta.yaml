@@ -1,6 +1,6 @@
 {% set name = "flask-restalchemy" %}
-{% set version = "0.8.1" %}
-{% set sha256 = "ed218b3a8d8b4613b30423bf1e2e15da3712fd7a6570559a70f5c67f1ce49c1d" %}
+{% set version = "0.8.2" %}
+{% set sha256 = "e97e8140df605f3ba5248081d53bc00411efe15020dfeb7c3f848e0e37f632a0" %}
 
 package:
   name: {{ name|lower }}
@@ -12,7 +12,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 1
+  number: 0
   skip: True  # [py<35]
   script: python -m pip install --no-deps --ignore-installed .
 
