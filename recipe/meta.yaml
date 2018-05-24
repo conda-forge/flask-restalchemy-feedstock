@@ -1,6 +1,6 @@
 {% set name = "flask-restalchemy" %}
-{% set version = "0.9.2" %}
-{% set sha256 = "2f891b8f606ad22b7352d6a32b3be8326705b51eb6f078abddddd8572e3ccd09" %}
+{% set version = "0.10.0" %}
+{% set sha256 = "9218443aa93b4db4059980621665587c71a171c3d978e34c052c896f07febfbb" %}
 
 package:
   name: {{ name|lower }}
