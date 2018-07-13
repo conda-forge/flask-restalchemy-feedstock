@@ -16,14 +16,16 @@ since usually all the information needed to serialize an SQLAlchemy instance is 
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/flask-restalchemy-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/flask-restalchemy-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/flask-restalchemy-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/flask-restalchemy-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/flask-restalchemy-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/flask-restalchemy-feedstock/branch/master)
+[![Linux](https://img.shields.io/circleci/project/github/conda-forge/flask-restalchemy-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/flask-restalchemy-feedstock)
+[![OSX](https://img.shields.io/travis/conda-forge/flask-restalchemy-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/flask-restalchemy-feedstock)
+[![Windows](https://img.shields.io/appveyor/ci/conda-forge/flask-restalchemy-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/flask-restalchemy-feedstock/branch/master)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/flask-restalchemy/badges/version.svg)](https://anaconda.org/conda-forge/flask-restalchemy)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/flask-restalchemy/badges/downloads.svg)](https://anaconda.org/conda-forge/flask-restalchemy)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-flask--restalchemy-green.svg)](https://anaconda.org/conda-forge/flask-restalchemy) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/flask-restalchemy.svg)](https://anaconda.org/conda-forge/flask-restalchemy) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/flask-restalchemy.svg)](https://anaconda.org/conda-forge/flask-restalchemy) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/flask-restalchemy.svg)](https://anaconda.org/conda-forge/flask-restalchemy) |
 
 Installing flask-restalchemy
 ============================
