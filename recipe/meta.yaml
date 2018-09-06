@@ -1,6 +1,6 @@
 {% set name = "flask-restalchemy" %}
-{% set version = "0.10.4" %}
-{% set sha256 = "e6a83fe9d767ce1b1f7a5311c4efb27d9fcac5a866b6c89323531bbd5ad07c0a" %}
+{% set version = "0.11.0" %}
+{% set sha256 = "0d26507c259e6df81fa984c231dd22e8844dd0576521f3114035e44eb5750a91" %}
 
 package:
   name: {{ name|lower }}
@@ -23,6 +23,7 @@ requirements:
   run:
     - python
     - sqlalchemy >=1.1
+    - sqlalchemy-utils >=0.30
     - flask-restful >=0.3
     - flask-sqlalchemy >=2.3.0
 
