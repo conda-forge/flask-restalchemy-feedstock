@@ -23,7 +23,7 @@ requirements:
     - pip
   run:
     - python >={{ python_min }}
-    - flask-sqlalchemy >=2.3.0
+    - flask-sqlalchemy >=3.0
     - sqlalchemy-utils >=0.30
     - flask >=1.0.0
     - sqlalchemy >=1.4,<3
