@@ -1,5 +1,5 @@
 {% set name = "flask-restalchemy" %}
-{% set version = "0.15.0" %}
+{% set version = "0.15.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name | replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: 11bb8f37599c23467c5720e26af42cd7c69c86890a7d7eb3c7f4b2c11a2965dd
+  sha256: 83028a1f551850b02a338ff7426bfb3f218a44a6f1f01bc44aad12de72713ac2
 
 build:
   noarch: python
